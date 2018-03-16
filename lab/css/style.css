@@ -8,6 +8,10 @@ p.main {
   font-size: 24px;
 }
 
+p.collection {
+  font-size: 13px;
+}
+
 .map {
     position: absolute;
     right: 0px;
@@ -29,6 +33,115 @@ p.main {
 
 .legend {
   position: absolute;
-  background-color: #fff;
+  background-color: #FFFFFF;
   z-index: 2000;
+  right: 10px;
+  bottom: 30px;
+  width: 200px;
+  height: 210px;
+}
+
+p.legend-title {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  left: 20px;
+  top: 2px;
+  z-index: 3000
+}
+
+p.mon-box {
+  position: absolute;
+  background-color: #056489;
+  width: 35px;
+  height: 20px;
+  z-index: 3000;
+  left: 20px;
+  top: 32px;
+}
+
+p.mon-text {
+  position: absolute;
+  font-size: 14px;
+  left: 65px;
+  top: 35px;
+  z-index: 3000;
+}
+
+p.tue-box {
+  position: absolute;
+  background-color: #DDE7A0;
+  width: 35px;
+  height: 20px;
+  z-index: 3000;
+  left: 20px;
+  top: 62px;
+}
+
+p.tue-text {
+  position: absolute;
+  font-size: 14px;
+  left: 65px;
+  top: 65px;
+  z-index: 3000;
+}
+
+p.wed-box {
+  position: absolute;
+  background-color: #A9CDA0;
+  width: 35px;
+  height: 20px;
+  z-index: 3000;
+  left: 20px;
+  top: 92px;
+}
+
+p.wed-text {
+  position: absolute;
+  font-size: 14px;
+  left: 65px;
+  top: 95px;
+  z-index: 3000;
+}
+
+p.thu-box {
+  position: absolute;
+  background-color: #94956B;
+  width: 35px;
+  height: 20px;
+  z-index: 3000;
+  left: 20px;
+  top: 122px;
+}
+
+p.thu-text {
+  position: absolute;
+  font-size: 14px;
+  left: 65px;
+  top: 125px;
+  z-index: 3000;
+}
+
+p.fri-box {
+  position: absolute;
+  background-color: #FA8E3B;
+  width: 35px;
+  height: 20px;
+  z-index: 3000;
+  left: 20px;
+  top: 152px;
+}
+
+p.fri-text {
+  position: absolute;
+  font-size: 14px;
+  left: 65px;
+  top: 155px;
+  z-index: 3000;
+}
+
+button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }

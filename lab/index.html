@@ -18,6 +18,13 @@
         <p>This application shows each region color coded based on day of
         week of garbage collection. To get more information about garbage
         collection for one of the regions, click on that region on the map.</p>
+        <p class="collection">
+          Garbage collected on Monday: <span class="mon">number</span><br>
+          Garbage collected on Tuesday: <span class="tue">number</span><br>
+          Garbage collected on Wednesday: <span class="wed">number</span><br>
+          Garbage collected on Thursday: <span class="thu">number</span><br>
+          Garbage collected on Friday: <span class="fri">number</span><br>
+        </p>
       </div>
       <div id="results" style="display: none;">
         <h1 class="day-of-week">Day of Week</h1>
@@ -26,12 +33,23 @@
         <p>Please be sure to leave your garbage outside on <span class="day-of-week">
         Day of Week</span>. If this week is a federal holiday, leave your
         garbage outside on the following day.</p>
+        <p>Leaflet ID: <span class="LeafletID">Leaftlet ID</span></p>
       </div>
+
+      <button>Return</button>
     </div>
     <!-- Map -->
     <div id="map" class="map"></div>
     <!-- Legend -->
-    <div class="legend"></div>
+    <div class="legend" style="clear: both;">
+      <p class="legend-title">Garbage Collection Day</p>
+      <p class="mon-box"></p> <p class="mon-text">Monday</p>
+      <p class="tue-box"></p> <p class="tue-text">Tuesday</p>
+      <p class="wed-box"></p> <p class="wed-text">Wednesday</p>
+      <p class="thu-box"></p> <p class="thu-text">Thursday</p>
+      <p class="fri-box"></p> <p class="fri-text">Friday</p>
+    </div>
+
     <!-- Javascript Imports -->
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/underscore.js"></script>

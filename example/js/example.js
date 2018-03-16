@@ -119,7 +119,7 @@ var onStringFilterChange = function(e) {
   filterAndPlot();
 };
 
-var onSelectChange = function() {
+var onSelectChange = function(e) {
   selectValue = e.target.value;
   filterAndPlot();
 };
